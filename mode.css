@@ -1,0 +1,45 @@
+/*selector{
+	property:  value;
+}*/
+body,
+html{
+	width: 100px;
+	height: 100px;
+	font-family: 'Luxurious Roman', cursive;
+	background: url(bulldozer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #6610f2;
+}
+
+hr{
+	border-color: #bb2f;
+	border-width: 5px;
+	max-width: 67px;
+}
+.btn{
+	font-weight: 700;
+	border-radius: 100px;
+	text-transform: uppercase;
+}
+
+.btn-secondary{
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+
+.btn-secondary:hover{
+	background-color: #ee4b;
+	border-color: #ee4b;
+	border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
